@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>FelicianoEJ.Templates.FastEndpointMediatR</id>
+    <version>1.0.0</version>
+    <title>FastEndpointMediatR Template</title>
+    <authors>Emilio Feliciano</authors>
+    <license type="file">License.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>Readme.md</readme>
+    <description>Template project that sets up FastEndpoint with MediatR. Seperates the web api from the application layer.</description>
+    <tags>dotnet-new templates</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\.editorconfig" target="content\templates\FastEndpointMediatR\.editorconfig" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\.gitignore" target="content\templates\FastEndpointMediatR\.gitignore" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\.template.config\template.json" target="content\templates\FastEndpointMediatR\.template.config\template.json" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\FastEndpointMediatR.sln" target="content\templates\FastEndpointMediatR\FastEndpointMediatR.sln" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\ApplicationDependencyInjectionExtensions.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\ApplicationDependencyInjectionExtensions.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\FastEndpointMediatR.Application.csproj" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\FastEndpointMediatR.Application.csproj" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\Repository\DataAccessLayer.md" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\Repository\DataAccessLayer.md" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\Request\SampleActionRequest.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\Request\SampleActionRequest.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\Response\SampleActionResponse.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\Response\SampleActionResponse.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\SampleActionHandler.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.Application\Features\SampleCollection\SampleAction\SampleActionHandler.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.Development.json" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.Development.json" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.json" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.json" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.Local.json" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.Local.json" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.Staging.json" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\appsettings.Staging.json" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\Request\SampleActionRequest.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\Request\SampleActionRequest.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\Response\SampleActionResponse.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\Response\SampleActionResponse.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\SampleActionEndpoint.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\SampleActionEndpoint.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\SampleActionValidator.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Endpoints\SampleCollection\SampleAction\SampleActionValidator.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\FastEndpointMediatR.WebApi.csproj" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\FastEndpointMediatR.WebApi.csproj" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\FastEndpointMediatR.WebApi.csproj.user" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\FastEndpointMediatR.WebApi.csproj.user" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Program.cs" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Program.cs" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Properties\launchSettings.json" target="content\templates\FastEndpointMediatR\src\FastEndpointMediatR.WebApi\Properties\launchSettings.json" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\License.md" target="License.md" />
+    <file src="C:\Users\felic\Dev\FastEndpointMediatR\Readme.md" target="Readme.md" />
+  </files>
+</package>

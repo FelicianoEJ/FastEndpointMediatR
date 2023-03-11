@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+      <PackageType>Template</PackageType>
+      <PackageVersion>1.0</PackageVersion>
+      <PackageId>FelicianoEJ.Templates.FastEndpointMediatR</PackageId>
+      <Title>FastEndpointMediatR Template</Title>
+      <Authors>Emilio Feliciano</Authors>
+      <Description>Template project that sets up FastEndpoint with MediatR. Seperates the web api from the application layer.</Description>
+      <PackageTags>dotnet-new;templates</PackageTags>
+      <PackageLicenseFile>License.md</PackageLicenseFile>
+      <PackageReadmeFile>Readme.md</PackageReadmeFile>
+  
+      <TargetFramework>netstandard2.0</TargetFramework>
+  
+      <IncludeContentInPack>true</IncludeContentInPack>
+      <IncludeBuildOutput>false</IncludeBuildOutput>
+      <ContentTargetFolders>content</ContentTargetFolders>
+      <NoWarn>$(NoWarn);NU5128</NoWarn>
+      <NoDefaultExcludes>true</NoDefaultExcludes>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="License.md" Pack="true" PackagePath="License.md"/>
+      <None Include="Readme.md" Pack="true" PackagePath="Readme.md"/>
+    </ItemGroup>
+  
+    <ItemGroup>
+      <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+      <Compile Remove="**\*" />
+    </ItemGroup>
+  
+  </Project>

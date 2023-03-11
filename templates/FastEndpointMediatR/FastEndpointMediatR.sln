@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09B5B90E-F62F-49CF-89BA-F983C2837707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastEndpointMediatR.WebApi", "src\FastEndpointMediatR.WebApi\FastEndpointMediatR.WebApi.csproj", "{C11C9070-C120-4570-A84C-33877E80FBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastEndpointMediatR.Application", "src\FastEndpointMediatR.Application\FastEndpointMediatR.Application.csproj", "{F247C111-2C77-4F17-A6F9-6AF9CF9CDEFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C11C9070-C120-4570-A84C-33877E80FBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11C9070-C120-4570-A84C-33877E80FBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11C9070-C120-4570-A84C-33877E80FBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11C9070-C120-4570-A84C-33877E80FBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F247C111-2C77-4F17-A6F9-6AF9CF9CDEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F247C111-2C77-4F17-A6F9-6AF9CF9CDEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F247C111-2C77-4F17-A6F9-6AF9CF9CDEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F247C111-2C77-4F17-A6F9-6AF9CF9CDEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C11C9070-C120-4570-A84C-33877E80FBB1} = {09B5B90E-F62F-49CF-89BA-F983C2837707}
+		{F247C111-2C77-4F17-A6F9-6AF9CF9CDEFE} = {09B5B90E-F62F-49CF-89BA-F983C2837707}
+	EndGlobalSection
+EndGlobal

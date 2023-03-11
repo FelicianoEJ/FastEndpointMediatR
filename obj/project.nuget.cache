@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "z66qi0IquDNzHSjMKfKJVp3Twr/jd0blhp2IHZwi4hFFS1anN+Yc5vOLJdvgFH81mgCrtkKrTDRBLxoCPi73Gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felic\\Dev\\FastEndpointMediatR\\FastEndpointMediatR-Template.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felic\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\felic\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

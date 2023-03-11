@@ -1,0 +1,10 @@
+C:\Users\felic\Dev\FastEndpointMediatR\bin\Release\netstandard2.0\FastEndpointMediatR-Template.deps.json
+C:\Users\felic\Dev\FastEndpointMediatR\bin\Release\netstandard2.0\FastEndpointMediatR-Template.dll
+C:\Users\felic\Dev\FastEndpointMediatR\bin\Release\netstandard2.0\FastEndpointMediatR-Template.pdb
+C:\Users\felic\Dev\FastEndpointMediatR\obj\Release\netstandard2.0\FastEndpointMediatR-Template.csproj.AssemblyReference.cache
+C:\Users\felic\Dev\FastEndpointMediatR\obj\Release\netstandard2.0\FastEndpointMediatR-Template.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felic\Dev\FastEndpointMediatR\obj\Release\netstandard2.0\FastEndpointMediatR-Template.AssemblyInfoInputs.cache
+C:\Users\felic\Dev\FastEndpointMediatR\obj\Release\netstandard2.0\FastEndpointMediatR-Template.AssemblyInfo.cs
+C:\Users\felic\Dev\FastEndpointMediatR\obj\Release\netstandard2.0\FastEndpointMediatR-Template.csproj.CoreCompileInputs.cache
+C:\Users\felic\Dev\FastEndpointMediatR\obj\Release\netstandard2.0\FastEndpointMediatR-Template.dll
+C:\Users\felic\Dev\FastEndpointMediatR\obj\Release\netstandard2.0\FastEndpointMediatR-Template.pdb
